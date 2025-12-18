@@ -1,0 +1,75 @@
+# Lab Members Data
+# This file contains information about current and former lab members
+
+principal_investigator:
+  - name: "Anna Schweiger"
+    role: "Principal Investigator"
+    image: "/assets/img/anna_headshot.jpg"
+    email: "anna.schweiger@montana.edu"
+    website: "https://www.montana.edu/ecology/schweiger"
+    orcid: "0000-0002-1234-5678"
+    bio: "I am a remote sensing scientist and ecologist. My research interests include investigating the association between plant spectra, plant form and function, and developing methods and theory for remote sensing of biodiversity, ecosystem function and services across biological, spatial, and temporal scales. I'm also interested investigating and mapping plant traits and functional groups, plant species and disease with spectroscopy, and in using remotely sensed vegetation traits to assess the behavior and diversity of other organism groups, including mammals and birds. Born and raised in Austria, I love downhill, back-country, and cross-country skiing, but I can also enjoy myself at the beach with a good book."
+
+current_members:
+  - name: "Ceili DeMarais"
+    role: "Ph.D. Student"
+    image: "/assets/img/ceili_headshot.png"
+    email: "ceilidemarais@montana.edu"
+    website: "https://ceilidemo.github.io"
+    orcid: "0009-0005-3308-3927"
+    bio: "I am a graduate student in the LRES department at Montana State University. Originally from Minnesota, I received my B.A. in Biology and Environmental Studies from St. Olaf College. Although I have a deeply ingrained appreciation for bodies of water thanks to my home state, my research interests center around grassland and rangeland ecology and the role that remote sensing can play in furthering our understanding of their functions and biodiversity across spatial and temporal scales. In my free time you can find me searching out one of the aforementioned bodies of water, hiking and backpacking, crafting, biking, or with my nose in my latest reading obsession. Name pronounced (Kay-lee Dee-muh-ray)"
+  
+  - name: "Raqib Valli"
+    role: "Ph.D. Student"
+    image: "/assets/img/raqib_headshot.png"
+    email: "raqibvalli@montana.edu"
+    #website: "https://ceilidemo.github.io"
+    orcid: "0009-0005-2888-5562"
+    bio: "I am a doctoral student at the Department of Land Resources and Environmental Science at Montana State University. I am broadly interested in data science, the AI for Conservation community, and quantitative ecology. My research at MSU will leverage a NASA ROSES grant to test and develop algorithms for biodiversity assessments across ecosystems and trophic levels using spectroscopy and LiDAR. Before starting my PhD, I earned an MS from Yale University and worked as a research associate at the World Agroforestry Center in Nairobi and as a restoration ecologist at the Center for Ecosystem Restoration of Kenya."
+  
+  - name: "Mada Zack"
+    role: "MS. Student"
+    image: "/assets/img/mada_headshot.jpg"
+    email: "madalynzack@montana.edu"
+    #website: "https://ceilidemo.github.io"
+    #orcid: "0009-0005-3308-3927"
+    bio: "I am a graduate student in MSU’s Land Resources and Environmental Sciences Department. In 2023, I graduated from St. Olaf College in Northfield, Minnesota, with a B.A. in Environmental Studies. I spent the subsequent year working in a variety of field positions across the U.S., focusing on rare plants, desert birds, and forest health. Growing up in Minnesota’s Northwoods afforded me opportunities to learn about our environment and provoked questions about our changing ecosystems- ideas I plan to explore in the Schweiger Lab. My research interests center on the physiological drivers of plant resilience and the applications of remote sensing for monitoring plant and community-level responses to disturbances in our changing climate."
+
+  - name: "Andrew Maritan"
+    role: "Postdoc Max Planck Institute for Marine Microbiology"
+    image: "/assets/img/andrew_headshot.jpg"
+    bio: "I am a Postdoc in the Department of Biogeochemistry at the Max Planck Institute for Marine Microbiology and collaborate with the Schweiger lab on microbial questions. My research interests generally revolve around community assembly, symbioses, and biogeochemistry (and wherever these intersect). I conducted my PhD work centered around the longitudinal study of coral-microbe symbiosis over hourly timescales in the Stewart Lab in the Department of Microbiology & Cell Biology at Montana State University. My current toolkit includes field collection and processing of molecular samples in rustic conditions and subsequent bioinformatic analyses of marker genes, de-novo genomes and gene expression. I love a good bike ride, road trip, beach day, or knitting."
+
+undergraduates:
+  - name: "Liam Grant"
+    role: "Undergraduate Researcher"
+    image: "/assets/img/liam_headshot.jpg"
+    #email: "liam.grant@montana.edu"
+    #website: ""
+    #orcid: ""
+    bio: "I am an undergraduate at MSU and in the Earth Sciences Department studying geology. I was a part of a military family and traveled the world before coming to Montana State, living in Germany for 3 years, South Korea for 1, and being born in the Netherlands. I have aspirations to continue remote sensing research to study the geology, geochemistry, and origin of extraterrestrial bodies in our solar system. I love all things outdoors, and will be more than happy to show you how to solve a Rubik's cube if you ask!"
+  
+  - name: "Aidan Chapman"
+    role: "Undergraduate Researcher"
+    image: "/assets/img/aidan_headshot.jpg"
+    #email: "ceili.oconnor@montana.edu"
+    #website: ""
+    #orcid: ""
+    bio: "I am an undergraduate at MSU in the College of Agriculture studying Environmental Science. I am originally from Missoula MT and grew up recreating in our national forests and public lands. I believe that understanding and protecting the earth is among the most important issues today. I will be using spectroscopy to differentiate plant species and also explore the importance of different wavelength regions for species differentiation. In my free time you can find me outside backpacking, ski touring, mountain biking and enjoying a good cup of coffee."
+
+  - name: "Sarah Elgin"
+    role: "Undergraduate Researcher"
+    image: "/assets/img/sarah_headshot.jpg"
+    #email: "ceili.oconnor@montana.edu"
+    #website: ""
+    #orcid: ""
+    bio: "I am a non-traditional undergraduate student of Environmental Sciences in the LRES department. During some time away from my studies, I worked in a variety of conservation positions, which sparked my interests in fire ecology, soils, and GIS. I am currently working on a project to predict soil characteristics based on sagebrush leaf spectra and I hope to continue to learn about the many applications of remotely sensed data and the complex relationships between soils, plants, and fire. When I’m not in the greenhouse or behind my computer, you can (try to) find me on my bike."
+
+alumni:
+  - name: "Zane Cleghorn"
+    role: "Undergrad Researcher - Ms Student @ University of Massachusetts Amherst"
+    #image: "/assets/img/andrew_headshot.jpg"
+    #email: ""
+    #website: "https://andrewmitchell.ecology.org"
+    #orcid: "0000-0004-4567-8901"
+    bio: "I am a graduate student at the University of Massachusetts Amherst Department of Earth, Geographic, and Climate Sciences where I am studying seismology to improve our understanding of the lithosphere. Before I pivoted research areas, I spent the last couple years of my bachelors in MSU's Department of Earth Science working on utilizing NASA's imaging spectrometer, EMIT, to map the lithologies in the McDermitt caldera. Specifically, by taking advantage of a discriminant analysis algorithm to try to build a model capable of predicting geologic units from spectral data collected in space. When I am not forced to sit at my computer, I like to read, cook, and just be outside and bathe in nature."

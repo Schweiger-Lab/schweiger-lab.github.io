@@ -1,17 +1,50 @@
-# My Personal Website
+# Schweiger Lab Website
 
-This website is based on [Hydejack](https://hydejack.com/) with a few changes to make it less of a blog format. 
+This is the official website for the Schweiger Lab at Montana State University.
 
-## Quick Start
+## File Structure
 
-### GitHub Pages
-1. Fork this repository.
-2. Go to **Settings**, rename repository to `<your github username>.github.io` (without the `<` `>`)
-3. Edit `_config.yml` (you can do this directly on GitHub)
-    1. Change `url` to `https://<your github username>.github.io` (without the `<` `>`)
-    2. Change `baseurl` to `''` (empty string)
-    3. **Commit changes**.
-4. Go to **Settings** again, look for **GitHub Pages**, set **Source** to **master branch**.
-5. Click **Save** and wait for GitHub to set up your new blag.
+```
+├── _config.yml              # Site configuration
+├── index.md                 # Home page
+├── pages/                   # All website pages
+│   ├── people.md           # Team members
+│   ├── publications.md     # Lab publications
+│   ├── research.md         # Research areas and projects
+│   ├── positions.md        # Available positions
+│   ├── news.md            # News and blog posts
+│   └── contact.md         # Contact information
+├── _posts/                 # Blog posts/news articles
+├── _data/                  # Data files
+│   ├── people.yml         # Team member information
+│   ├── publications.yml   # Publication data
+│   └── positions.yml      # Position information
+├── _layouts/               # Page templates
+│   ├── default.html       # Main layout
+│   └── post.html          # Blog post layout
+├── assets/                 # Static assets
+│   ├── css/style.css      # Main stylesheet
+│   └── img/               # Images
+└── _research/             # Research project pages
+```
 
-Read the [docs](https://hydejack.com/docs/)
+## Editing Content
+
+- **Home page**: Edit `index.md`
+- **Other pages**: Edit files in `pages/` folder
+- **Team members**: Edit `_data/people.yml`
+- **Publications**: Edit `_data/publications.yml`
+- **News posts**: Add new files to `_posts/`
+- **Styling**: Edit `assets/css/style.css`
+
+## Local Development
+
+```bash
+jekyll serve --port 4000
+```
+
+Then visit `http://localhost:4000`
+
+## Live Site
+
+https://schweiger-lab.github.io

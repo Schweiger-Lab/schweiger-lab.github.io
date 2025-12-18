@@ -1,0 +1,56 @@
+# Available Positions
+# This file contains information about current and future opportunities in the lab
+
+current_openings:
+  #- title: "Ph.D. Student"
+    #type: "Graduate Student"
+    #status: "open"
+    #posted_date: "2024-01-15"
+    #application_deadline: "2024-03-01"
+    #description: "We are seeking ..."
+    #requirements:
+      #- "B.S. or M.S. in ecology, biology, environmental science, or related field"
+    #preferred_qualifications:
+      #- "Experience with remote sensing or GIS"
+      #- "Background in plant ecology or ecosystem science"
+    #funding_info: 
+    #application_process: "Send CV, cover letter, unofficial transcripts, and contact information for 3 references to Dr. Schweiger."
+    #contact_email: "anna.schweiger@montana.edu"
+
+general_info:
+  graduate_students:
+    description: "We welcome..."
+    requirements:
+      - "..."
+    preferred_qualifications:
+      - "Experience with remote sensing, GIS, or spectroscopy"
+      - "Background in plant ecology or ecosystem science"
+    funding_info: "..."
+    application_process: "Interested students should contact Anna Schweiger with a CV and cover letter."
+    
+  postdocs:
+    description: "Postdoctoral positions..."
+    requirements:
+      - "Ph.D. in ecology, remote sensing, geography, or related field"
+    preferred_qualifications:
+      - "Background in biodiversity or ecosystem ecology"
+      - "Programming skills in R, Python, or similar languages"
+      - "Grant writing experience"
+    funding_info: "..."
+    application_process: "Please contact Dr. Schweiger to discuss potential opportunities. Include CV, research statement, and contact information for references."
+    
+  undergraduates:
+    description: "..."
+    requirements:
+      - "Enrolled at Montana State University"
+    preferred_qualifications:
+      - "..."
+    funding_info: "..."
+    application_process: "Contact Dr. Schweiger or current lab members to discuss available projects."
+
+contact_info:
+  email: "anna.schweiger@montana.edu"
+  office: "Leon Johnson Hall"
+  phone: "(406) 994-XXXX"
+  office_hours: "Tuesdays and Thursdays 2-4 PM, or by appointment"
+  mailing_address: "Department of land Resources and Environmental Sciences, Montana State University"

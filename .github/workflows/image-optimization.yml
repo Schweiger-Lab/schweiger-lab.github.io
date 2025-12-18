@@ -1,0 +1,142 @@
+name: Image Optimization
+
+on:
+  push:
+    paths:
+      - 'assets/img/**'
+  pull_request:
+    paths:
+      - 'assets/img/**'
+
+jobs:
+  optimize-images:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Install ImageMagick
+      run: sudo apt-get update && sudo apt-get install -y imagemagick
+      
+    - name: Check image sizes and optimization
+      run: |
+        echo "Checking image file sizes..."
+        
+        # Function to check file sizes
+        check_image_size() {
+          local file="$1"
+          local max_size="$2"
+          local type="$3"
+          
+          if [ -f "$file" ]; then
+            size=$(stat -c%s "$file")
+            size_kb=$((size / 1024))
+            
+            if [ $size -gt $max_size ]; then
+              echo "❌ $file (${size_kb}KB) exceeds ${type} size limit"
+              return 1
+            else
+              echo "✅ $file (${size_kb}KB) is within ${type} size limit"
+              return 0
+            fi
+          fi
+        }
+        
+        # Check headshot images (should be < 50KB)
+        error_count=0
+        for img in assets/img/*headshot*.{jpg,jpeg,png}; do
+          if [ -f "$img" ]; then
+            check_image_size "$img" 51200 "headshot (50KB)" || ((error_count++))
+          fi
+        done
+        
+        # Check research images (should be < 150KB)
+        for img in assets/img/{specdiv,plant_comm,refl}*.{jpg,jpeg,png}; do
+          if [ -f "$img" ]; then
+            check_image_size "$img" 153600 "research (150KB)" || ((error_count++))
+          fi
+        done
+        
+        if [ $error_count -gt 0 ]; then
+          echo "❌ $error_count image(s) exceed size limits"
+          echo "Please optimize images using the provided script: ./scripts/optimize-images.sh"
+          exit 1
+        else
+          echo "✅ All images are within size limits"
+        fi
+        
+    - name: Check alt text compliance
+      run: |
+        echo "Checking alt text compliance..."
+        
+        # Check for empty alt text
+        empty_alt=$(grep -r 'alt=""' *.md _layouts/ _includes/ 2>/dev/null || true)
+        if [ -n "$empty_alt" ]; then
+          echo "❌ Found empty alt text:"
+          echo "$empty_alt"
+          exit 1
+        fi
+        
+        # Check for generic alt text
+        generic_alt=$(grep -r 'alt="image"' *.md _layouts/ _includes/ 2>/dev/null || true)
+        if [ -n "$generic_alt" ]; then
+          echo "❌ Found generic alt text:"
+          echo "$generic_alt"
+          exit 1
+        fi
+        
+        echo "✅ Alt text compliance check passed"
+        
+    - name: Validate image accessibility
+      run: |
+        echo "Validating image accessibility..."
+        
+        # Check that all images have meaningful alt text
+        python3 << 'EOF'
+        import re
+        import os
+        import glob
+        
+        def check_alt_text_quality(alt_text, filename):
+          """Check if alt text is meaningful"""
+          if not alt_text or alt_text.strip() == "":
+            return False, "Empty alt text"
+          
+          # Check for generic terms
+          generic_terms = ["image", "picture", "photo", "img"]
+          if alt_text.lower().strip() in generic_terms:
+            return False, f"Generic alt text: '{alt_text}'"
+          
+          # Alt text should be descriptive (at least 10 characters)
+          if len(alt_text.strip()) < 10:
+            return False, f"Alt text too short: '{alt_text}'"
+          
+          return True, "Good alt text"
+        
+        # Check markdown files for image alt text
+        md_files = glob.glob("*.md") + glob.glob("_layouts/*.html") + glob.glob("_includes/*.html")
+        
+        issues = []
+        for file_path in md_files:
+          if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+              content = f.read()
+              
+              # Find all img tags with alt attributes
+              img_pattern = r'<img[^>]+alt=["\']([^"\']*)["\'][^>]*>'
+              matches = re.findall(img_pattern, content, re.IGNORECASE)
+              
+              for alt_text in matches:
+                is_good, message = check_alt_text_quality(alt_text, file_path)
+                if not is_good:
+                  issues.append(f"{file_path}: {message}")
+        
+        if issues:
+          print("❌ Alt text issues found:")
+          for issue in issues:
+            print(f"  {issue}")
+          exit(1)
+        else:
+          print("✅ All alt text appears to be meaningful")
+        EOF

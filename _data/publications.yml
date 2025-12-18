@@ -1,0 +1,394 @@
+# Lab Publications Data
+# This file contains structured publication information for the Schweiger Lab
+
+2025:
+  - id: "montoya-2025-oilpalm"
+    title: "Spectral characterization of plant diversity in an enriched oil palm plantation"
+    authors: ["V. Montoya-Sánchez","A.K. Schweiger","M. Schlund","G. Brant Paterno","S. Erasm","H. Kreft","D. Hölscher","F. Brambang","I. Bambang","B. Irawan","L. Sundawatii","D.C. Zemp"]
+    journal: "Remote Sensing in Ecology and Conservation"
+    year: 2025
+    doi: "10.1002/rse2.70034"
+    type: "journal-article"
+
+  - id: "pinto-2025-biodiversity"
+    title: "Plant diversity across dimensions: Coupling biodiversity measures from the ground and the sky"
+    authors: ["J.N. Pinto-Ledezma","A.K. Schweiger","J.A. Guzmán Q.","J.A. Cavender-Bares"]
+    journal: "Science Advances"
+    year: 2025
+    volume: "11"
+    pages: "eadr0278"
+    doi: "10.1126/sciadv.adr0278"
+    type: "journal-article"
+
+2024:
+  - id: "wang-2024-leaf-spectroscopy"
+    title: "Quantifying foliar trait variation and covariation in sun and shade leaves using leaf spectroscopy in eastern North America"
+    authors: ["Z. Wang","P. Townsend","E. Kruger","A.K. Schweiger"]
+    journal: "Forest Ecosystems"
+    year: 2024
+    volume: "11"
+    pages: "100230"
+    doi: "10.1016/j.fecs.2024.100230"
+    type: "journal-article"
+
+  - id: "macdougall-2024-grassland-biomass"
+    title: "Widening global variability in grassland biomass since the 1980s"
+    authors: ["A. MacDougall","E. Esch","T. Ohlert","Q. Chen","O. Carrol","C. Bonner","C. Seabloom","M. Siewart","A.K. Schweiger","et al."]
+    journal: "Nature Ecology & Evolution"
+    year: 2024
+    doi: "10.1038/s41559-024-02500-x"
+    type: "journal-article"
+
+  - id: "kulling-2024-sweco25"
+    title: "SWECO25: a cross-thematic raster database for ecological research in Switzerland"
+    authors: ["N. Külling","A. Adde","F. Fopp","A.K. Schweiger","O. Broennimann","P.-L. Rey","G. Giuliani","T. Goicolea","B. Petitpierre","N.E. Zimmermann","L. Pellissier","F. Altermatt","A. Lehmann","A. Guisan"]
+    journal: "Scientific Data"
+    year: 2024
+    volume: "11"
+    pages: "21"
+    doi: "10.1038/s41597-023-02899-1"
+    type: "journal-article"
+
+2023:
+  - id: "janzen-2023-mycorrhizal-spectra"
+    title: "Evolutionary history explains foliar spectral differences between mycorrhizal types"
+    authors: ["J. Janzen","E. Laliberté","A. Carteron","R. Beauchamp-Rioux","F. Blanchard","A. Crofts","A. Girard","P. Hacker","J. Pardo","A.K. Schweiger","S. Demers-Thibeault","N. Coops","M. Kalacska","M. Vellend","A. Bruneau"]
+    journal: "New Phytologist"
+    year: 2023
+    doi: "10.1111/nph.18902"
+    type: "journal-article"
+
+  - id: "adde-2023-covsel"
+    title: "Too many candidates: embedded covariate selection procedure for species distribution modelling with the covsel R package"
+    authors: ["A. Adde","P.-L. Rey","F. Fopp","B. Petitpierre","A.K. Schweiger","O. Broennimann","A. Lehmann","N.E. Zimmermann","F. Altermatt","L. Pellissier","A. Guisan"]
+    journal: "Ecological Informatics"
+    year: 2023
+    volume: "75"
+    pages: "102080"
+    doi: "10.1016/j.ecoinf.2023.102080"
+    type: "journal-article"
+
+  - id: "kothari-2023-leaf-traits"
+    title: "Predicting leaf traits across functional groups using reflectance spectroscopy"
+    authors: ["S. Kothari","R. Beauchamp-Rioux","F. Blanchard","A. Crofts","A. Girard","X. Guilbeault-Mayers","P. Hacker","J. Pardo","A.K. Schweiger","S. Demers-Thibeault","A. Bruneau","N. Coops","M. Kalacska","M. Vellend","E. Laliberté"]
+    journal: "New Phytologist"
+    year: 2023
+    volume: "238"
+    pages: "549-566"
+    doi: "10.1111/nph.18713"
+    type: "journal-article"
+
+2022:
+  - id: "kothari-2022-grime-review"
+    title: "Grime review: Plant spectra as integrative measures of plant phenotypes"
+    authors: ["S. Kothari","A.K. Schweiger"]
+    journal: "Journal of Ecology"
+    year: 2022
+    doi: "10.1111/1365-2745.13972"
+    type: "review-article"
+
+  - id: "schweiger-2022-beta-diversity"
+    title: "Plant beta-diversity across biomes captured by imaging spectroscopy"
+    authors: ["A.K. Schweiger","E. Laliberté"]
+    journal: "Nature Communications"
+    year: 2022
+    volume: "13"
+    pages: "2767"
+    doi: "10.1038/s41467-022-30369-6"
+    type: "journal-article"
+
+  - id: "risch-2022-wood-decomposition"
+    title: "Global controls of wood decomposition on and in forest soils"
+    authors: ["A.C. Risch","D.S. Page-Dumroese","A.K. Schweiger","et al."]
+    journal: "Frontiers in Forests and Global Change"
+    year: 2022
+    volume: "5"
+    doi: "10.3389/ffgc.2022.829810"
+    type: "journal-article"
+
+  - id: "sapes-2022-oak-wilt"
+    title: "Canopy spectral reflectance detects oak wilt decline at landscape scale using phylogenetic discrimination"
+    authors: ["G. Sapes","C. Lapadat","A.K. Schweiger","et al."]
+    journal: "Remote Sensing of Environment"
+    year: 2022
+    volume: "273"
+    pages: "112961"
+    doi: "10.1016/j.rse.2022.112961"
+    type: "journal-article"
+
+  - id: "cavender-2022-prairie-function"
+    title: "Remotely detected aboveground plant function predicts belowground processes in two prairie diversity experiments"
+    authors: ["J. Cavender-Bares","A.K. Schweiger","P.A. Townsend","et al."]
+    journal: "Ecological Monographs"
+    year: 2022
+    doi: "10.1002/ecm.1488"
+    type: "journal-article"
+
+2021:
+  - id: "schweiger-2021-spectral-complementarity"
+    title: "Coupling spectral and resource-use complementarity in experimental grassland and forest communities"
+    authors: ["A.K. Schweiger","J. Cavender-Bares","P.A. Townsend","et al."]
+    journal: "Proceedings of the Royal Society B"
+    year: 2021
+    volume: "288"
+    pages: "20211290"
+    doi: "10.1098/rspb.2021.1290"
+    type: "journal-article"
+
+  - id: "nagy-2021-neon-data"
+    title: "Harnessing the NEON data revolution to advance open environmental science with a diverse and data-capable community"
+    authors: ["R.C. Nagy","J.K. Balch","A.K. Schweiger","et al."]
+    journal: "Ecosphere"
+    year: 2021
+    volume: "12"
+    issue: "12"
+    pages: "e03833"
+    doi: "10.1002/ecs2.3833"
+    type: "journal-article"
+
+  - id: "kitzes-2021-neon-biodiv"
+    title: "Expanding NEON biodiversity surveys with new instrumentation and machine learning approaches"
+    authors: ["Kitzes J.", "Blake R.", "Bombaci S.P.", "Chapman M.", "Duran S.M.", "Huang T.", "Joseph M.B.", "Lapp S.", "Marconi S.", "Oestreich W.K.", "Rhinehart T.A.", "Schweiger A.K.", "Song Y.", "Surasinghe T.", "Yang D.", "Yule K."]
+    journal: "Ecosphere"
+    year: 2021
+    volume: "12"
+    issue: "11"
+    pages: "e03795-e03795"
+    dio: "10.1002/ecs2.3795"
+    type: "journal-article"
+
+2020:
+  - id: "meireles-2020-refl-evol"
+    title: "Leaf reflectance spectra capture the evolutionary history of seed plants"
+    authors: ["Meireles J.E.","O'Meara B.","Schweiger A.K.","Schrodt F.","Singh A.","Schaepman M.","Asner G.","Townsend P.","Gamon J.","Ustin S.","Cavender-Bares J."]
+    journal: "New Phytologist"
+    year: 2020
+    volume: "228"
+    issue: "2"
+    pages: "485-493"
+    doi: "10.1111/nph.16771"
+    type: "journal-article"
+
+  - id: "schweiger-2020-tree-crown"
+    title: "Foliar sampling with a UAS reveals spectral and functional trait differences within tree crowns"
+    authors: ["Schweiger A.K.","Lussier Desbiens A.","Charron G.","La Vigne H.","Laliberté E."]
+    journal: "Canadian Journal of Forest Research"
+    year: 2020
+    doi: "10.1139/cjfr-2019-0452"
+    type: "journal-article"
+
+  - id: "girard-2020-nitrogen-bogs"
+    title: "Influence of nitrogen deposition on leaf functional traits and spectral properties of bog plants"
+    authors: ["Girard A.","Schweiger A.K.","Kalacska M.","Laliberté E."]
+    journal: "Remote Sensing"
+    year: 2020
+    volume: "12"
+    issue: "15"
+    pages: "2448"
+    doi: "10.3390/rs12152448"
+    type: "journal-article"
+
+  - id: "laliberte-2020-spectral-diversity"
+    title: "Partitioning plant spectral diversity into alpha and beta components"
+    authors: ["Laliberté E.","Schweiger A.K.","Legendre P."]
+    journal: "Ecology Letters"
+    year: 2020
+    volume: "23"
+    issue: "2"
+    pages: "370-380"
+    doi: "10.1111/ele.13429"
+    type: "journal-article"
+
+2019:
+  - id: "gholizadeh-2019-prairie-biodiversity"
+    title: "Detecting prairie biodiversity with airborne remote sensing"
+    authors: ["Gholizadeh H.","Gamon J.A.","Townsend P.A.","Zygielbaum A.I.","Helzer J.C.","Hmimina G.Y.","Yu R.","Moore R.M.","Schweiger A.K.","Cavender-Bares J."]
+    journal: "Remote Sensing of Environment"
+    year: 2019
+    volume: "221"
+    pages: "38-49"
+    doi: "10.1016/j.rse.2018.10.037"
+    type: "journal-article"
+
+  - id: "wang-2019-foliar-traits"
+    title: "Mapping foliar functional traits and their uncertainties across three years in a grassland experiment"
+    authors: ["Wang Z.","Townsend P.A.","Schweiger A.K.","Couture J.J.","Singh A.","Hobbie S.E.","Cavender-Bares J."]
+    journal: "Remote Sensing of Environment"
+    year: 2019
+    volume: "221"
+    pages: "405-416"
+    doi: "10.1016/j.rse.2018.11.016"
+    type: "journal-article"
+
+2018:
+  - id: "schweiger-2018-spectral-diversity"
+    title: "Plant spectral diversity integrates functional and phylogenetic components of biodiversity and predicts ecosystem function"
+    authors: ["Schweiger A.K.","Cavender-Bares J.","Townsend P.A.","Hobbie S.E.","Madritch M.D.","Wang R.","Tilman D.","Gamon J.A."]
+    journal: "Nature Ecology and Evolution"
+    year: 2018
+    doi: "10.1038/s41559-018-0551-1"
+    type: "journal-article"
+
+  - id: "wang-2018-optical-diversity"
+    title: "Influence of species richness, evenness, and composition on optical diversity: A simulation study"
+    authors: ["Wang R.","Gamon J.A.","Schweiger A.K.","Cavender-Bares J.","Townsend P.A.","Zygielbaum A.I.","Kothari S."]
+    journal: "Remote Sensing of Environment"
+    year: 2018
+    volume: "211"
+    pages: "218-228"
+    doi: "10.1016/j.rse.2018.04.010"
+    type: "journal-article"
+
+  - id: "gholizadeh-2018-soil-correction"
+    title: "Remote sensing of biodiversity: Soil correction and data dimension reduction methods improve assessment of α-diversity (species richness) in prairie ecosystems"
+    authors: ["Gholizadeh H.","Gamon J.A.","Zygielbaum A.I.","Wang R.","Schweiger A.K.","Cavender-Bares J."]
+    journal: "Remote Sensing of Environment"
+    year: 2018
+    volume: "206"
+    pages: "240-253"
+    doi: "10.1016/j.rse.2017.12.014"
+    type: "journal-article"
+
+earlier:
+  - id: "cavender-bares-2017-harnessing-spectra"
+    title: "Harnessing plant spectra to integrate the biodiversity sciences across biological and spatial scales"
+    authors: ["Cavender-Bares J.","Gamon J.A.","Hobbie S.E.","Madritch M.D.","Meireles J.E.","Schweiger A.K.","Townsend P.A."]
+    journal: "American Journal of Botany"
+    year: 2017
+    volume: "104"
+    issue: "7"
+    pages: "966-969"
+    doi: "10.3732/ajb.1700061"
+    type: "journal-article"
+
+  - id: "deacon-2017-hybrid-aspens"
+    title: "Genetic, morphological, and spectral characterization of relictual Niobrara River hybrid aspens (Populus× smithii)"
+    authors: ["Deacon N.J.","Grossman J.J.","Schweiger A.K.","Armour I.","Cavender-Bares J."]
+    journal: "American Journal of Botany"
+    year: 2017
+    volume: "104"
+    issue: "12"
+    pages: "1878-1890"
+    doi: "10.3732/ajb.1700268"
+    type: "journal-article"
+
+  - id: "stavros-2017-iss-observations"
+    title: "ISS observations offer insights into plant function"
+    authors: ["Stavros E.N.","Schimel D.","Pavlick R.","Serbin S.","Swann A.","Duncanson L.","Fisher J.B.","Fassnacht F.","Ustin S.","Dubayah R.","Schweiger A.K.","Wenneberg P."]
+    journal: "Nature Ecology and Evolution"
+    year: 2017
+    doi: "10.1038/s41559-017-0194"
+    type: "journal-article"
+
+  - id: "sachser-2017-niche-modeling"
+    title: "Searching the right tie—Expert-based vs. statistical niche modeling for habitat management at the alpine treeline ecotone"
+    authors: ["Sachser F.","Nopp-Mayr U.","Zohmann M.","Schweiger A.K.","Grünschachner-Berger V.","Immitzer M."]
+    journal: "Ecological engineering"
+    year: 2017
+    volume: "100"
+    pages: "107-119"
+    doi: "10.1016/j.ecoleng.2016.12.009"
+    type: "journal-article"
+
+  - id: "schweiger-2017-pfts-spectroscopy"
+    title: "How to predict plant functional types using imaging spectroscopy: Linking vegetation community traits, plant functional types and spectral response"
+    authors: ["Schweiger A.K.","Schütz M.","Risch A.C.","Kneubühler M.","Haller R.","Schaepman M.E."]
+    journal: "Methods in Ecology and Evolution"
+    year: 2017
+    volume: "8"
+    issue: "1"
+    pages: "86-95"
+    doi: "10.1111/2041-210X.12642"
+    type: "journal-article"
+
+  - id: "schweiger-2015-ungulate-foraging"
+    title: "Foraging ecology of three sympatric ungulate species - Behavioural and resource maps indicate differences between chamois, ibex and red deer"
+    authors: ["Schweiger A.K.","Schütz M.","Risch A.C.","Kneubühler M.","Haller R.","Schaepman M.E."]
+    journal: "Movement Ecology"
+    year: 2015
+    volume: "3"
+    pages: "6"
+    doi: "10.1186/s40462-015-0033-x"
+    type: "journal-article"
+
+  - id: "schweiger-2015-alpine-biomass"
+    title: "Using imaging spectroscopy to predict above-ground plant biomass in alpine grasslands grazed by large ungulates"
+    authors: ["Schweiger A.K.","Risch A.C.","Damm A.","Kneubühler M.","Haller R.","Schaepman M.E.","Schütz M."]
+    journal: "Journal of Vegetation Science"
+    year: 2015
+    volume: "26"
+    pages: "175-190"
+    doi: "10.1111/jvs.12214"
+    type: "journal-article"
+
+  - id: "anderwald-2015-migratory-ungulates"
+    title: "Influence of migratory ungulate management on competitive interactions with resident species in a protected area"
+    authors: ["Anderwald P.","Herfindal I.","Haller R.M.","Risch A.C.","Schütz M.","Schweiger A.K.","Filli F."]
+    journal: "Ecosphere"
+    year: 2015
+    volume: "6"
+    issue: "11"
+    pages: "1-18"
+    doi: "10.1890/ES15-00365.1"
+    type: "journal-article"
+
+  - id: "fatehi-2015-alpine-biomass-mapping"
+    title: "Mapping alpine aboveground biomass from imaging spectrometer data: a comparison of two approaches"
+    authors: ["Fatehi P.","Damm A.","Schweiger A.K.","Schaepman M.E.","Kneubühler M."]
+    journal: "IEEE JSTARS"
+    year: 2015
+    volume: "8"
+    pages: "3123-3139"
+    doi: "10.1109/JSTARS.2015.2432075"
+    type: "journal-article"
+
+  - id: "kneubuehler-2014-continuous-fields"
+    title: "Continuous fields from imaging spectrometer data for ecosystem parameter mapping and their potential for animal habitat assessment in alpine regions"
+    authors: ["Kneubühler M.","Damm A.","Schweiger A.K.","Risch A.C.","Schütz M.","Schaepman M.E."]
+    journal: "IEEE JSTARS"
+    year: 2014
+    volume: "7"
+    pages: "2600-2610"
+    doi: "10.1109/JSTARS.2014.2323574"
+    type: "journal-article"
+
+  - id: "kneubuehler-2013-swiss-national-park"
+    title: "Ecosystem parameter mapping in Swiss National Park based on a continuous fields approach"
+    authors: ["Kneubühler M.","Damm A.","Schweiger A.K.","Fatehi P.","Schaepman M. E."]
+    journal: "IGARSS IEEE"
+    year: 2013
+    pages: "1774-1777"
+    doi: "10.110/IGARSS.2013.6723142"
+    type: "conference-paper"
+
+  - id: "schweiger-2012-grouse-ptarmigan"
+    title: "Small-scale habitat use of black grouse (Tetrao tetrix L.) and rock ptarmigan (Lagopus muta helvetica Thienemann) in the Austrian Alps"
+    authors: ["Schweiger A.K.","Nopp-Mayr U.","Zohmann M."]
+    journal: "European Journal of Wildlife Research"
+    year: 2012
+    volume: "58"
+    pages: "35-45"
+    doi: "10.1007/s10344-011-0537-7"
+    type: "journal-article"
+
+book_chapters:
+  - id: "schweiger-2020-spectral-field-campaigns"
+    title: "Spectral field campaigns: Planning and data collection"
+    authors: ["Schweiger A.K."]
+    book: "Remote Sensing of Plant Biodiversity"
+    editors: ["Cavender-Bares J.","Gamon J.A.","Townsend P.A."]
+    publisher: "Springer International Publishing"
+    year: 2020
+    doi: "10.1007/978-3-030-33157-3_15"
+    type: "book-chapter"
+
+  - id: "cavender-bares-2020-applying-remote-sensing"
+    title: "Applying remote sensing to biodiversity science"
+    authors: ["Cavender-Bares J.","Schweiger A.K.","Pinto-Ledezma J.","Meireles J.M."]
+    book: "Remote Sensing of Plant Biodiversity"
+    editors: ["Cavender-Bares J.","Gamon J.A.","Townsend P.A."]
+    publisher: "Springer International Publishing"
+    year: 2020
+    doi: "10.1007/978-3-030-33157-3_2"
+    type: "book-chapter"
+
