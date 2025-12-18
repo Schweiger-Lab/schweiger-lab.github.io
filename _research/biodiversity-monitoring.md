@@ -2,11 +2,10 @@
 layout: research-detail
 title: "Remote Sensing for Biodiversity Monitoring"
 description: "Developing scalable remote sensing approaches for monitoring biodiversity patterns across landscapes"
-image: "/assets/img/refl.jpg"
+image: "/assets/img/hero-bg.jpg"
 status: "active"
 category: "biodiversity"
-start_date: "2023"
-end_date: ""
+start_date: "2023-10-13"
 funding: "NASA ROSES"
 collaborators:
   - ""
